@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>JS||Functions|practice</title>
+</head>
+<body>
+<!--
+<script>  
+function msg(){  
+alert("hello! this is message");  //Is a way of communicating an information which pops up.
+}  
+</script>  
+<input type="button" onclick="msg()" value="Click Me"/>  -->
+<!---
+<script>  
+function getcube(number){  
+alert(number*number*number);  
+}  
+
+</script> 
+<form>  
+<input type="button" value="click" onclick="getcube(3.3)"/>  
+</form> 
+
+<script>  
+function getInfo(){  
+return "hello javatpoint! How r u?";  
+}  
+</script>  -->
+<!--
+<script>  
+document.write(getInfo());  
+</script>  -->
+<script language="Javascript" type="text/Javascript">  
+    <!--  
+    function clickevent()  
+    {  
+        document.write("This is JavaTpoint");  
+    }  
+    //-->  
+</script> 
+<form>  
+<input type="button" onclick="clickevent()" value="Who's this?"/>  
+</form>  
+
+<script language="Javascript" type="text/Javascript">  
+
+    function mouseoverevent()  
+    {  
+        alert("you got this ");  
+    }  
+     
+</script> 
+<p onmouseover="mouseoverevent()"> Hey, cursor over me</p> 
+
+
+<h2> What's your vision Cheryl</h2>  
+<input type="text" id="input1" onfocus="focusevent()"/>
+<button type="button" id="btn" onmouseover ="mouseoverevent()" onmouseout="mouseoutevent()">O'reilly</button> 
+<script>  
+
+    function focusevent()  
+    {  
+        document.getElementById("input1").style.background=" cyan";  
+        
+    }  
+    function mouseoverevent(){
+        document.getElementById("btn").style.background="teal"; 
+    }
+    function mouseoutevent(){
+        document.getElementById("btn").style.background="white";
+    }
+  document.getElementById("btn").style.border="1px solid #000";
+  
+  
+</script>  
+</body>
+</html>
